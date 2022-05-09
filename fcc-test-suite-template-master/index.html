@@ -4,12 +4,50 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      .container{
+        display: flex;
+        flex-direction: row;
+      }
+      .section{
+        display: flex;
+        flex-direction: column;
+      }
+      .navbar{
+        visibility: visible;
+        justify-content: flex-start;
+        flex-direction: column;
+      }
+      @media (max-width: 12450px) { 
+        body{
+          background-color: gray;
+        }
+        
+       }
+    </style>
   </head>
   
   <body>
     
     <main id = "main-doc">
-      <section class="main-section" id="Introduction">
+      <div class="container">
+      <div class="navbar">
+        <nav id="navbar">
+          <header>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ullam fuga modi, provident dolorum reiciendis dignissimos tenetur! Animi ducimus exercitationem nesciunt quasi consectetur totam a nemo dolore sed aspernatur. Inventore.
+          Molestias unde ullam aperiam odit vero aut deserunt quisquam ipsam in exercitationem aliquid, optio fuga, corrupti provident libero sint beatae neque cupiditate debitis similique saepe? Magnam ea debitis voluptate non!
+          Consequuntur culpa asperiores repellendus, voluptas dolorem, nobis, at ducimus provident harum praesentium incidunt non dicta? Nam inventore porro velit consequatur odio voluptatem eligendi, numquam nobis architecto, magni, a unde temporibus.
+          Magnam eos dolorem, asperiores, laboriosam reprehenderit totam cupiditate exercitationem quos quibusdam ratione obcaecati? Quidem consequatur cumque asperiores ipsam labore recusandae id nostrum doloribus fugiat provident libero, aperiam blanditiis eum autem.
+          Rem, quidem. Maiores, eos fugit nobis omnis corporis, sint ex nihil totam veritatis voluptas similique, repellendus unde eius nulla. Tenetur error aliquam, suscipit eius provident laboriosam neque aperiam molestias libero!</header>
+        
+        <a href="#Introduction" class="nav-link" id="Introduction">Introduction</a>
+        <a href="#Variables" class="nav-link" id="Variables">Variables</a>
+        <a href="#Loops" class="nav-link" id="Loops">Loops</a>
+        <a href="#Functions" class="nav-link" id="Functions">Functions</a>
+        <a href="#Objects" class="nav-link" id="Objects">Objects</a>
+        </nav>
+      </div>
+     <div class="section"> 
+       <section class="main-section" id="Introduction">
         <header>Introduction</header>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, blanditiis? Laborum nobis hic distinctio ducimus harum obcaecati aliquid delectus veritatis incidunt vero, est nostrum unde eaque adipisci iusto voluptatibus pariatur!
         Incidunt sit vel velit quas aliquam delectus dolorem! Iste nisi ratione veritatis ab, officiis dolor nihil. Voluptatibus consequuntur, illum, eveniet ipsam, animi excepturi veniam necessitatibus magni temporibus aut sunt aperiam?
@@ -102,19 +140,8 @@
       
       <li></li>
       </section>
-      <nav id="navbar">
-        <header>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ullam fuga modi, provident dolorum reiciendis dignissimos tenetur! Animi ducimus exercitationem nesciunt quasi consectetur totam a nemo dolore sed aspernatur. Inventore.
-        Molestias unde ullam aperiam odit vero aut deserunt quisquam ipsam in exercitationem aliquid, optio fuga, corrupti provident libero sint beatae neque cupiditate debitis similique saepe? Magnam ea debitis voluptate non!
-        Consequuntur culpa asperiores repellendus, voluptas dolorem, nobis, at ducimus provident harum praesentium incidunt non dicta? Nam inventore porro velit consequatur odio voluptatem eligendi, numquam nobis architecto, magni, a unde temporibus.
-        Magnam eos dolorem, asperiores, laboriosam reprehenderit totam cupiditate exercitationem quos quibusdam ratione obcaecati? Quidem consequatur cumque asperiores ipsam labore recusandae id nostrum doloribus fugiat provident libero, aperiam blanditiis eum autem.
-        Rem, quidem. Maiores, eos fugit nobis omnis corporis, sint ex nihil totam veritatis voluptas similique, repellendus unde eius nulla. Tenetur error aliquam, suscipit eius provident laboriosam neque aperiam molestias libero!</header>
-      
-      <a href="#Introduction" class="nav-link" id="Introduction">Introduction</a>
-      <a href="#Variables" class="nav-link" id="Variables">Variables</a>
-      <a href="#Loops" class="nav-link" id="Loops">Loops</a>
-      <a href="#Functions" class="nav-link" id="Functions">Functions</a>
-      <a href="#Objects" class="nav-link" id="Objects">Objects</a>
-      </nav>
+      </div>
+  </div>
     </main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     
